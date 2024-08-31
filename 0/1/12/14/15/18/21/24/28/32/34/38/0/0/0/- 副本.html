@@ -1,0 +1,10 @@
+var canvas = document.createElement('canvas');
+var ctx = canvas.getContext('2d');
+canvas.width = 400;
+canvas.height = 200;
+document.body.appendChild(canvas);
+// 设置字体和颜色
+ctx.font = '30px Arial';
+ctx.fillStyle = '#0095DD';
+// 在屏幕上呈现文本
+ctx.fillText('Hello World!', 50, 100);
