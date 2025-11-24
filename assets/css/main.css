@@ -1637,6 +1637,8 @@ input, select, textarea {
 		padding-bottom: 30px; /* 从120px降到30px，仅留少量冗余 */
         margin-top: 2rem;
         text-align: center;
+		padding-bottom: 0; /* 固定定位的播放器不需要容器留白 */
+        margin-top: 2rem;
 	}
 
 		#footer .copyright {
