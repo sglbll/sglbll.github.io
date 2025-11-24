@@ -1529,8 +1529,8 @@ input, select, textarea {
 		position: relative;
 		max-width: 100%;
 		z-index: 3;
-		min-height: auto; /* 取消强制占满屏幕高度 */
-        padding-bottom: 2rem; /* 增加底部留白 */
+		min-height: auto; /* 保持自适应，不强制占满屏幕 */
+        padding-bottom: 0; /* 删掉之前加的2rem，避免重复留白 */
 	}
 
 		#main article {
@@ -1634,7 +1634,7 @@ input, select, textarea {
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
-		padding-bottom: 120px; /* 增加底部空间，确保播放器显示 */
+		padding-bottom: 30px; /* 从120px降到30px，仅留少量冗余 */
         margin-top: 2rem;
         text-align: center;
 	}
